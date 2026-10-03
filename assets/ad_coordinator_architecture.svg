@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="480" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="#1e293b" stroke-width="0.75" stroke-dasharray="4,6" opacity="0.35">
+    <line x1="80" y1="0" x2="80" y2="480"/>
+    <line x1="280" y1="0" x2="280" y2="480"/>
+    <line x1="500" y1="0" x2="500" y2="480"/>
+    <line x1="720" y1="0" x2="720" y2="480"/>
+    <line x1="920" y1="0" x2="920" y2="480"/>
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(60, 46)">
+    <rect x="0" y="0" width="136" height="26" rx="6" fill="#8b5cf6" fill-opacity="0.15" stroke="#a78bfa" stroke-width="1"/>
+    <text x="68" y="17" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0.8">SWIFT 6 ARCHITECTURE</text>
+    <text x="150" y="20" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">MobileAdCoordinator Pipeline</text>
+    <text x="0" y="44" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13">Protocol-oriented monetization orchestration, ATT/GDPR compliance, &amp; frequency capping</text>
+  </g>
+
+  <!-- Top App State & User Journey -->
+  <g transform="translate(60, 118)">
+    <rect width="880" height="56" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2"/>
+    <text x="24" y="33" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13" font-weight="700">App Lifecycle Journey</text>
+
+    <!-- Stage Pills -->
+    <rect x="180" y="14" width="110" height="28" rx="6" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1"/>
+    <text x="235" y="32" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="600" text-anchor="middle">1. Splash</text>
+
+    <text x="305" y="32" fill="#64748b" font-family="-apple-system, sans-serif" font-size="12">→</text>
+
+    <rect x="330" y="14" width="120" height="28" rx="6" fill="#8b5cf6" fill-opacity="0.15" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="390" y="32" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="600" text-anchor="middle">2. Onboarding</text>
+
+    <text x="465" y="32" fill="#64748b" font-family="-apple-system, sans-serif" font-size="12">→</text>
+
+    <rect x="490" y="14" width="120" height="28" rx="6" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+    <text x="550" y="32" fill="#fde68a" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="600" text-anchor="middle">3. Paywall</text>
+
+    <text x="625" y="32" fill="#64748b" font-family="-apple-system, sans-serif" font-size="12">→</text>
+
+    <rect x="650" y="14" width="110" height="28" rx="6" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1"/>
+    <text x="705" y="32" fill="#6ee7b7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="600" text-anchor="middle">4. Main Tab</text>
+
+    <rect x="780" y="14" width="85" height="28" rx="6" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1"/>
+    <text x="822" y="32" fill="#fca5a5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Premium ✕</text>
+  </g>
+
+  <!-- Middle 3 Core Pillars -->
+  <!-- 1. ATT & Privacy Coordinator -->
+  <g transform="translate(60, 195)">
+    <rect width="275" height="150" rx="10" fill="url(#cardGrad)" stroke="#3b82f6" stroke-width="1.2"/>
+    <circle cx="28" cy="28" r="12" fill="#3b82f6" fill-opacity="0.2"/>
+    <text x="28" y="33" fill="#60a5fa" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" text-anchor="middle">§</text>
+    <text x="50" y="33" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="14" font-weight="700">ATTConsentCoordinator</text>
+    <text x="18" y="70" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• GDPR / UMP Consent Gate</text>
+    <text x="18" y="90" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• ATTrackingManager Dialog</text>
+    <text x="18" y="110" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• Main queue window deferral</text>
+    <text x="18" y="130" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', monospace" font-size="10.5">App Store Rejection Proof</text>
+  </g>
+
+  <!-- 2. Feature Usage Tracker -->
+  <g transform="translate(362, 195)">
+    <rect width="275" height="150" rx="10" fill="url(#cardGrad)" stroke="#8b5cf6" stroke-width="1.2"/>
+    <circle cx="28" cy="28" r="12" fill="#8b5cf6" fill-opacity="0.2"/>
+    <text x="28" y="33" fill="#c084fc" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" text-anchor="middle">#</text>
+    <text x="50" y="33" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="14" font-weight="700">FeatureUsageTracker</text>
+    <text x="18" y="70" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• Action counting (e.g. 3 clicks)</text>
+    <text x="18" y="90" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• Minimum time gap (e.g. 60s)</text>
+    <text x="18" y="110" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• Forced paywall-close override</text>
+    <text x="18" y="130" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', monospace" font-size="10.5">No Ad Spamming UX</text>
+  </g>
+
+  <!-- 3. App Open Coordinator -->
+  <g transform="translate(665, 195)">
+    <rect width="275" height="150" rx="10" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.2"/>
+    <circle cx="28" cy="28" r="12" fill="#10b981" fill-opacity="0.2"/>
+    <text x="28" y="33" fill="#34d399" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" text-anchor="middle">⎋</text>
+    <text x="50" y="33" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="14" font-weight="700">AppOpenCoordinator</text>
+    <text x="18" y="70" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• Suppression state machine</text>
+    <text x="18" y="90" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• Suppressed on paywall/picker</text>
+    <text x="18" y="110" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11.5">• Background resume cooldown</text>
+    <text x="18" y="130" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', monospace" font-size="10.5">Zero Intrusive Interrupts</text>
+  </g>
+
+  <!-- Bottom AdProvider Protocol Layer -->
+  <g transform="translate(60, 365)">
+    <rect width="880" height="66" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
+    <text x="440" y="27" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">ADPROVIDER PROTOCOL ADAPTERS (ZERO SDK LOCK-IN)</text>
+    <text x="440" y="48" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', monospace" font-size="11" text-anchor="middle">Google Mobile Ads (AdMob)  |  AppLovin MAX  |  Unity Ads  |  MockAdProvider (Previews &amp; Unit Tests)</text>
+  </g>
+
+  <!-- Connectors -->
+  <g stroke="#64748b" stroke-width="1" stroke-dasharray="3,3" opacity="0.4">
+    <line x1="197" y1="174" x2="197" y2="195"/>
+    <line x1="499" y1="174" x2="499" y2="195"/>
+    <line x1="802" y1="174" x2="802" y2="195"/>
+
+    <line x1="197" y1="345" x2="197" y2="365"/>
+    <line x1="499" y1="345" x2="499" y2="365"/>
+    <line x1="802" y1="345" x2="802" y2="365"/>
+  </g>
+</svg>
